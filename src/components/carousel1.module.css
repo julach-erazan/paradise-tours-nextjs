@@ -1,0 +1,21 @@
+.carouselContainer {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .carouselSlide {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slick-dots li button:before {
+    color: #3b82f6; /* Tailwind blue-500 */
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    color: #3b82f6; /* Tailwind blue-500 */
+  }
+  
