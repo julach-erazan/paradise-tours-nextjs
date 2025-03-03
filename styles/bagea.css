@@ -1,0 +1,18 @@
+/* styles/bagea.css */
+
+@font-face {
+    font-family: 'bagea'; /* Name of the font */
+    src: url('/fonts/Bagea.ttf') format('truetype');
+    /* Update the path to point to your bagea.ttf font file */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+  
+  
+
+  
+h1,h2,h3{
+  font-family: 'bagea';
+}
