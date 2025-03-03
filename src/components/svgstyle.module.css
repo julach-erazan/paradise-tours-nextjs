@@ -1,0 +1,47 @@
+.colombo{
+   
+   color: antiquewhite;
+   stroke-width: 2;
+   
+}
+
+.colombo:hover{
+    fill:orange;
+    transition: cubic-bezier(7.5, 8.2, 1.65, 10);
+    transform: translate(0, -10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border: 1rem white;
+    /* transform: scale(1.1);
+    transform: transform 0.3s ease-in-out; */
+}
+.name {
+    position: absolute;
+    top: 50%; /* Position the name in the middle of the parent container */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the name horizontally and vertically */
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    visibility: hidden; /* Initially hide the name */
+  }
+  
+  .colombo:hover + .name {
+    visibility: visible; /* Show the name when .colombo is hovered */
+  }
+
+  .kandy:hover{
+    fill:orchid;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translate(0, -10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.nuwara:hover{
+    fill:orchid;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translate(0, -10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.pathName {
+    visibility: hidden;
+}

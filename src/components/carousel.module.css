@@ -1,0 +1,48 @@
+
+
+.carousel .control-dots {
+  display: none;
+}
+.carousel .slider-wrapper {
+  width: 100% !important;
+}
+
+.carousel .control-dots .dot {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+}
+
+.carousel .control-dots .dot.selected {
+  width: 20px !important;
+  height: 20px !important;
+}
+.carousel .control-arrow {
+  display: none;
+}
+
+.carousel .control-arrow:before {
+  font-size: 24px !important;
+  color: #000;
+}
+
+.carousel .control-arrow:hover:before {
+  color: #000;
+}
+
+.carousel .control-thumb {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.carousel .control-thumb .thumb {
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 0% !important;
+  margin: 0 5px !important;
+}
+
+.carousel .control-thumb .thumb.selected {
+  border: 2px solid #b92323 !important;
+}
